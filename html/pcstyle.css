@@ -1,0 +1,27 @@
+body {
+      height: 100vh;
+    width: 100vw;
+    display: block;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('./img/gaming.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 1;}
+
+.sectionSubHead {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 1.5px;
+    margin-bottom: 5px;
+    margin-top: 43px;
+}
+.card-img-top {
+    max-height: 220px;
+}
+.card {
+    margin: 15px 0;
+    cursor: pointer;
+    box-shadow: 9px 9px 16px 0px rgba(0, 0, 0, 0.25);
+}
